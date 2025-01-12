@@ -1,5 +1,5 @@
-import { SearchIcon } from '@chakra-ui/icons';
-import { Button, Flex, Icon, Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
+import { InputButton } from '../../components/InputButton';
 import { MainTitle } from "../../components/MainTitle";
 
 export default function Home() {
@@ -24,7 +24,11 @@ export default function Home() {
           color="purple"
         />
       </Flex>
-      <Flex gap={'2rem'}>
+      <InputButton
+        placeholder='Search'
+        button
+      />
+      {/* <Flex gap={'2rem'}>
         <InputGroup w="37rem" h="3rem">
           <InputLeftElement
             mt={'5px'}
@@ -53,7 +57,7 @@ export default function Home() {
         >
           Search
         </Button>
-      </Flex>
+      </Flex> */}
     </Flex >
   )
 }
