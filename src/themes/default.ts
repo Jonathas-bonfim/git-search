@@ -2,11 +2,11 @@ import { extendTheme } from "@chakra-ui/react";
 
 const defaultTheme = extendTheme({
   colors: {
-    brand: {
-      900: "#1a365d",
-      800: "#153e75",
-      700: "#2a69ac",
-    },
+    blue: "#0069CA",
+    purple: "#8C19D2",
+    gray: "#4A5568",
+    grayLight: "#A0AEC0",
+    greenButton: "#2c7a7b",
   },
   fonts: {
     heading: "'Inter', sans-serif",
@@ -22,11 +22,20 @@ const defaultTheme = extendTheme({
     "4xl": "3rem", // 48px
     "5xl": "4rem", // 64px
     "6xl": "4.5rem", // 72px
+    "7xl": "5rem", // 72px
   },
   fontWeights: {
     normal: 400,
     medium: 500,
     bold: 700,
+  },
+  styles: {
+    global: {
+      body: {
+        color: "#4A5568",
+        bg: "white",
+      },
+    },
   },
 });
 export default defaultTheme;

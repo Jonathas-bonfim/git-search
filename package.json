@@ -23,6 +23,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
+    "@chakra-ui/icons": "^2.2.4",
     "@eslint/js": "^9.17.0",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
